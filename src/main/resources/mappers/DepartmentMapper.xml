@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="ncs_test_lch.dao.DepartmentMapper">
+	<insert id="insertDepartment" parameterType="Department">
+		INSERT INTO department(deptNo, deptName, floor) VALUES(#{deptNo}, #{deptName}, #{floor});
+	</insert>
+	
+	<select id="selectDepartmentByAll" resultType="Department">
+		SELECT deptNo, deptName, floor
+		FROM department;
+	</select>
+	
+	<select id="selectDepartmentByDeptNo" resultType="Department" parameterType="Department">
+		SELECT deptNo, deptName, floor
+		FROM department
+		WHERE deptNo = #{deptNo};
+	</select>
+	
+	<update id="updateDepartment" parameterType="Department">
+		UPDATE department
+		SET deptName = #{deptName}, floor = #{floor}
+		WHERE deptNo = #{deptNo};
+	</update>
+	
+	<delete id="deleteDepartment">
+		DELETE FROM department
+		WHERE deptNo = #{deptNo};
+	</delete>
+</mapper>

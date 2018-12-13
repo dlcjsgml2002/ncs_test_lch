@@ -1,0 +1,45 @@
+CREATE USER 'user_ncs_test_lch'@'%';
+ALTER USER 'user_ncs_test_lch'@'%'
+IDENTIFIED BY 'rootroot' ;
+GRANT Alter ON ncs_test_lch.* TO 'user_ncs_test_lch'@'%';
+GRANT Create ON ncs_test_lch.* TO 'user_ncs_test_lch'@'%';
+GRANT Create view ON ncs_test_lch.* TO 'user_ncs_test_lch'@'%';
+GRANT Delete ON ncs_test_lch.* TO 'user_ncs_test_lch'@'%';
+GRANT Drop ON ncs_test_lch.* TO 'user_ncs_test_lch'@'%';
+GRANT Grant option ON ncs_test_lch.* TO 'user_ncs_test_lch'@'%';
+GRANT Index ON ncs_test_lch.* TO 'user_ncs_test_lch'@'%';
+GRANT Insert ON ncs_test_lch.* TO 'user_ncs_test_lch'@'%';
+GRANT References ON ncs_test_lch.* TO 'user_ncs_test_lch'@'%';
+GRANT Select ON ncs_test_lch.* TO 'user_ncs_test_lch'@'%';
+GRANT Show view ON ncs_test_lch.* TO 'user_ncs_test_lch'@'%';
+GRANT Trigger ON ncs_test_lch.* TO 'user_ncs_test_lch'@'%';
+GRANT Update ON ncs_test_lch.* TO 'user_ncs_test_lch'@'%';
+GRANT Alter routine ON ncs_test_lch.* TO 'user_ncs_test_lch'@'%';
+GRANT Create routine ON ncs_test_lch.* TO 'user_ncs_test_lch'@'%';
+GRANT Create temporary tables ON ncs_test_lch.* TO 'user_ncs_test_lch'@'%';
+GRANT Execute ON ncs_test_lch.* TO 'user_ncs_test_lch'@'%';
+GRANT Lock tables ON ncs_test_lch.* TO 'user_ncs_test_lch'@'%';
+FLUSH PRIVILEGES;
+
+CREATE USER 'user_ncs_test_lch'@'localhost';
+ALTER USER 'user_ncs_test_lch'@'localhost'
+IDENTIFIED BY 'rootroot' ;
+GRANT Alter ON ncs_test_lch.* TO 'user_ncs_test_lch'@'localhost';
+GRANT Create ON ncs_test_lch.* TO 'user_ncs_test_lch'@'localhost';
+GRANT Create view ON ncs_test_lch.* TO 'user_ncs_test_lch'@'localhost';
+GRANT Delete ON ncs_test_lch.* TO 'user_ncs_test_lch'@'localhost';
+GRANT Drop ON ncs_test_lch.* TO 'user_ncs_test_lch'@'localhost';
+GRANT Grant option ON ncs_test_lch.* TO 'user_ncs_test_lch'@'localhost';
+GRANT Index ON ncs_test_lch.* TO 'user_ncs_test_lch'@'localhost';
+GRANT Insert ON ncs_test_lch.* TO 'user_ncs_test_lch'@'localhost';
+GRANT References ON ncs_test_lch.* TO 'user_ncs_test_lch'@'localhost';
+GRANT Select ON ncs_test_lch.* TO 'user_ncs_test_lch'@'localhost';
+GRANT Show view ON ncs_test_lch.* TO 'user_ncs_test_lch'@'localhost';
+GRANT Trigger ON ncs_test_lch.* TO 'user_ncs_test_lch'@'localhost';
+GRANT Update ON ncs_test_lch.* TO 'user_ncs_test_lch'@'localhost';
+GRANT Alter routine ON ncs_test_lch.* TO 'user_ncs_test_lch'@'localhost';
+GRANT Create routine ON ncs_test_lch.* TO 'user_ncs_test_lch'@'localhost';
+GRANT Create temporary tables ON ncs_test_lch.* TO 'user_ncs_test_lch'@'localhost';
+GRANT Execute ON ncs_test_lch.* TO 'user_ncs_test_lch'@'localhost';
+GRANT Lock tables ON ncs_test_lch.* TO 'user_ncs_test_lch'@'localhost';
+FLUSH PRIVILEGES;

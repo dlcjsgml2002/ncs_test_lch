@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="mysql5-167a792008c-652fef83d9e1e7c9" provider="mysql" driver="mysql5" name="MySQL - ncs_test_lch(user_ncs_test_lch)" save-password="true" show-system-objects="true" show-util-objects="true" read-only="false">
+		<connection host="localhost" port="3306" server="" database="ncs_test_lch" url="jdbc:mysql://localhost:3306/ncs_test_lch" user="user_ncs_test_lch" password="AQsJNFNMSwJl8w==" home="C:\Program Files\MySQL\MySQL Server 5.7" type="dev"/>
+	</data-source>
+	<data-source id="mysql5-167a79bede6-3f4ec10d882befe6" provider="mysql" driver="mysql5" name="MySQL - mysql(root)" save-password="true" show-system-objects="true" show-util-objects="true" read-only="false">
+		<connection host="localhost" port="3306" server="" database="mysql" url="jdbc:mysql://localhost:3306/mysql" user="root" password="AQsJNFNMSwJl8w==" home="C:\Program Files\MySQL\MySQL Server 5.7" type="dev"/>
+	</data-source>
+	<filters/>
+</data-sources>
